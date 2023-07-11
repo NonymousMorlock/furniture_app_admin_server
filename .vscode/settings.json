@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 8090,
+            "driver": "PostgreSQL",
+            "name": "furnitureStore",
+            "username": "postgres",
+            "database": "furniture_store_server",
+            "password": "yrSPJ8ufYizoo2AshW8eBfaAwZ8tMuNA"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+class: Product
+table: product
+serverOnly: true
+
+fields:
+  name: String
+  sku: String?
+  availability: String
+  quantity: int
+  categories: List<String>
+  description: String
+  images: List<String>
+  weight: double
+  weightUnit: String
+  dimensions: String?
+  price: double
+  compareAtPrice: double?
+  #  Change these to Strings because the postgresql doesn't support integer with range over 2^32
+  createdAt: String
+  updatedAt: String
+  availableAt: String
+

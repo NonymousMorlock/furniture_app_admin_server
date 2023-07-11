@@ -1,0 +1,6 @@
+class: Response
+table: response
+
+fields:
+  body: String
+  statusCode: int
